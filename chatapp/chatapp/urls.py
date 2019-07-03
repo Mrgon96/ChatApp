@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from users import views as v2
 from django.conf.urls import url,include
+from rest_framework_jwt.views import obtain_jwt_token
+from rest_framework_simplejwt import views as jwt_views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v2.index, name="index"),
     url(r'^users/',include('users.urls')),
-
 
 ]
