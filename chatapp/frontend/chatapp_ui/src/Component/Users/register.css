@@ -1,0 +1,53 @@
+.register{
+    position: relative;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+    height: 450px;
+    width: 900px;
+    background: #28a787;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+h2{
+    padding-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.r-table{
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.r-table td{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.r-table td input{
+    width: 80%;
+}
+
+.r-button{
+    margin-top: 200px;
+    width: 20%;
+    height: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    background: rgb(131, 247, 255);
+    color: darkgreen;
+    border-radius: 20px;
+
+}

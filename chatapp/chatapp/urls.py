@@ -23,6 +23,9 @@ from rest_framework_simplejwt import views as jwt_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v2.index, name="index"),
+    # path('',v2.home,name="home"),
     url(r'^users/',include('users.urls')),
+    path('book/', v2.book, name='book'),
+    path('token-auth/', obtain_jwt_token),
 
 ]

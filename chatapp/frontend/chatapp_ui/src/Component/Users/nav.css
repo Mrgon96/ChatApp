@@ -1,0 +1,44 @@
+.Nav{
+    position: relative;
+    height: 70px;
+    width: 300px;
+    background: rgb(124, 255, 131);
+    text-align: center;
+    align-self: center;
+    margin-left: 500px;
+}
+
+.Nav h3{
+
+    margin-top: -500px;
+    margin-left: -100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.ul{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    list-style-type: none; 
+}
+
+
+li {
+    display: block;
+    float: left;
+    display: block;
+    color: rgb(12, 14, 105);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+li :hover{
+    background-color: azure;
+}  
