@@ -7,6 +7,8 @@
 <body>
 {% if registered %}
         <h1>Thank you for registering!</h1>
+        <h1 style="color: crimson;">Please, Activate You Account</h1>
+        <a href="{% url 'index' %}"><h3>Home</h3></a>
       {% else %}
         <h1>Register Here</h1>
         <h3>Just fill out the form.</h3>

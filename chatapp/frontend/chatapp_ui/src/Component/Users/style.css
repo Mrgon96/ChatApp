@@ -1,0 +1,18 @@
+.input{
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: medium;
+    outline-color: blue;
+    appearance: inherit;
+}
+
+h3{
+    margin-top: -550px;
+    margin-left:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+}

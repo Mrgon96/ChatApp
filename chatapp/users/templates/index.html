@@ -1,17 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ChatApp</title>
-</head>
-<body bgcolor="#7fffd4">
-<h1 style="color: crimson">This is Home</h1>
-
-{% if user.is_authenticated %}
-        <h2>Hello {{ user.username }}</h2>
-    {% else %}
-        <h2>Register or Login if you'd like to</h2>
-    {% endif %}
-
-</body>
-</html>
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>ChatApp</title>#}
+{#</head>#}
+{#<body bgcolor="#7fffd4">#}
+{#<h1 style="color: crimson">This is Home</h1>#}
+{##}
+{#{% if user.is_authenticated %}#}
+{#        <h2>Hello {{ user.username }}</h2>#}
+{#        <form method="POST" action="users:user_logout">#}
+{#        <input type="submit" value="Logout" />#}
+{#        </form>#}
+{##}
+{#    {% else %}#}
+{#        <h2>Register or Login if you'd like to</h2>#}
+{#        <a href="{% url 'users:register' %}">Register</a>#}
+{#        <a href="{% url 'users:user_login'%}">Login</a>#}
+{#    </body>#}
+{#    {% endif %}#}
+{##}
+{#</body>#}
+{#</html>#}
